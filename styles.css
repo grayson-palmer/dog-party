@@ -1,66 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   background-color: #fff;
 }
+
 body {
   margin: 0;
-  background: no-repeat center/100% url("images/park.jpg");
 }
+
 /* ********** HEADER ********** */
+
 header {
   width: 100%;
   background-color: #75e2e6;
   border-bottom: 3px solid #048eaa;
 }
+
 #logo {
-  width: 50px;
-  padding: 8px 20px;
+  width: 60px;
+  margin: 8px 20px;
 }
+
 nav {
   overflow: hidden;
   display: inline;
   float: right;
   padding-right: 20px;
 }
+
 nav li {
   float: left;
   text-align: center;
   list-style: none;
-  padding: 10px 16px;
+  margin: 10px 16px;
   font-size: 20px;
 }
+
 /* ********** SECTION ********** */
+
 section {
   margin: auto;
-  padding-top: 15px;
+  padding-top: 5px;
   width: 100%;
   text-align: center;
-  font-size: 30px;
+  font-size: 28px;
   color: #fff;
-  background-color: rgb(0, 0, 0, .4);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/park.jpg") no-repeat center/100%;
 }
+
+section h1 {
+  font-weight: 400;
+}
+
+#bold-text {
+  font-weight: 800;
+}
+
 .dogs {
   border: 5px solid #048eaa;
-  border-radius: 200px;
-  width: 200px;
+  border-radius: 150px;
+  width: 250px;
   margin: 0px 10px 20px 10px;
 }
+
 form {
   margin: auto;
-  font-size: 18px;
-  width: 30%;
+  font-size: 24px;
+  width: 500px;
+}
+
+#label {
   text-align: left;
+  margin: 0px 5px -30px;
 }
+
 #name {
-  width: 400px;
-  height: 40px;
-  margin: 10px 0px;
+  width: 500px;
+  height: 60px;
+  margin: 0px 0px 10px;
+  font-size: 24px;
 }
+
 #submit {
   background-color: #75e2e6;
   border: none;
-  padding: 10px;
-  width: 405px;
+  padding: 16px;
+  width: 500px;
+  font-size: 24px;
+  margin: 10px 0px 50px 0px;
+}
+
+/* ********** ARTICLES ********** */
+
+#dog-art-align {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.dog-art {
+  width: 30%;
+  height: 600px;
+  float: left;
+  margin: 22px;
+}
+
+.dog-art h2 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.dog-art p {
+  text-align: left;
+  width: 80%;
   font-size: 20px;
-  margin: 10px 0px 30px 0px;
+  margin: 20px;
+}
+
+#button-align {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.buttons button{
+  width: 395px;
+  float: left;
+  font-size: 20px;
+  border-radius: 3px;
+  background-color: #048eaa;
+  color: #fff;
+  padding: 18px;
+  margin: 60px 40px;
+}
+
+/* ********** FOOTER ********** */
+
+footer {
+  clear: both;
+  height: 200px;
+  text-align: center;
+  background-color: #048eaa;
+  color: #fff;
+  width: 100%;
+}
+
+footer p {
+  font-size: 20px;
+  padding: 40px 0px 20px;
+}
+
+footer img {
+  padding: 0px 10px;
 }
