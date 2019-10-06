@@ -7,7 +7,7 @@
 //  newName.value = '';
 // }
 
-var button = document.querySelector('.submitBtn');
+var button = document.querySelector('.submit-btn');
 
 button.addEventListener('click', function () {
   var someDog = document.querySelector('#dog-text');

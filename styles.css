@@ -67,7 +67,7 @@ section h1 {
   margin: 0px 10px 20px 10px;
 }
 
-#form {
+form {
   margin: auto;
   font-size: 24px;
   width: 500px;
@@ -85,7 +85,7 @@ section h1 {
   font-size: 24px;
 }
 
-.submitBtn {
+.submit-btn {
   background-color: #75e2e6;
   border: none;
   padding: 16px;
@@ -156,4 +156,51 @@ footer p {
 
 footer img {
   padding: 0px 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  section h1 {
+    font-size: 40px;
+  }
+  section {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/park.jpg") no-repeat center/200%;
+  }
+
+  form {
+    margin: auto;
+    font-size: 24px;
+    width: 90%;
+  }
+
+  #label {
+    text-align: left;
+    margin: 0px 20px -30px;
+  }
+
+  #name {
+    width: 90%;
+    height: 60px;
+    margin: 0px 0px 10px;
+    font-size: 24px;
+  }
+
+  .submit-btn {
+    background-color: #75e2e6;
+    border: none;
+    padding: 16px;
+    width: 90%;
+    font-size: 24px;
+    margin: 10px 0px 50px 0px;
+  }
+
+  #dog-art-align {
+    width: 100%;
+  }
+
+  .dog-art {
+    width: 90%;
+    height: auto;
+  }
+
+
 }
